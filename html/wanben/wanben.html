@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>小说阁手机版</title>
+    <meta name="viewport"
+          content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <meta name="generator" content="DESTOON B2B - www.destoon.com"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-title" content="小说阁手机版"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+    <link rel="apple-touch-icon-precomposed"
+          href="http://xiaoshuo.yewu99.com:8089/mobile/apple-touch-icon-precomposed.png"/>
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="128x128" href="http://xiaoshuo.yewu99.com:8089/mobile/apple-touch-icon-precomposed.png">
+    <meta name="msapplication-TileImage" content="apple-touch-icon-precomposed.png">
+    <meta name="msapplication-TileColor" content="#007AFF">
+    <link rel="shortcut icon" type="image/x-icon" href="http://xiaoshuo.yewu99.com:8089/favicon.ico"/>
+    <link rel="bookmark" type="image/x-icon" href="http://xiaoshuo.yewu99.com:8089/favicon.ico"/>
+    <link rel="stylesheet" type="text/css"
+          href="http://xiaoshuo.yewu99.com:8089/mobile/static/lib/jquery/jquery.mobile.custom.structure.min.css"/>
+    <link rel="stylesheet" type="text/css" href="http://xiaoshuo.yewu99.com:8089/mobile/static/style.css"/>
+    <script type="text/javascript"
+            src="http://xiaoshuo.yewu99.com:8089/mobile/static/lib/jquery/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).bind("mobileinit", function () {
+            $.mobile.defaultPageTransition = 'slide';
+        });
+        var AJPath = 'ajax.php';
+        var Dbrowser = '';
+    </script>
+    <script type="text/javascript"
+            src="http://xiaoshuo.yewu99.com:8089/mobile/static/lib/jquery/jquery.mobile.custom.min.js"></script>
+    <script type="text/javascript" src="http://xiaoshuo.yewu99.com:8089/mobile/static/js/common.js"></script>
+    <script type="text/javascript" src="http://xiaoshuo.yewu99.com:8089/mobile/static/js/fix.js"></script>
+</head>
+<body>
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/wanben/wanben.css">
+<link rel="stylesheet" href="../../css/book_content.css">
+<script src="../../js/dom.js"></script>
+<script src="../../js/wanben/wanben.js"></script>
+<div class="base">
+    <!--头部-->
+    <div class="p-h-back">
+        <img class="p-h-ile" src="../../image/paihang/all_back_link.png" width="18" height="15" alt="">
+        <span>完本</span>
+        <img class="p-h-iri" src="../../image/paihang/index_wode_link.png" width="20" height="20" alt="">
+    </div>
+    <!--男女生分类-->
+    <div class="w-nvfenlei">
+        <div class="wn-peo">
+            <ul>
+                <li class="wn-li p-l-liclick" data-class="jq_nan">男生</li>
+                <li class="wn-li" data-class="jq_nv">女生</li>
+                <li class="wn-li" data-class="jq_wan">完本</li>
+                <div class="clear"></div>
+            </ul>
+        </div>
+        <div class="wn-img" id="wn_img">
+            <img src='../../image/end_shaixuana_but.png' width="15" height="18" alt="">
+        </div>
+    </div>
+    <!--筛选-->
+    <div class="wn-shaixuan jq_hide">
+        <div class="ws-paixu" id="w_paixu">
+            <ul>
+                <li class="f-bold">排序方式</li>
+                <li class="wsp-li ws-color">点击量</li>
+                <li class="wsp-li">收藏</li>
+                <li class="wsp-li">更新时间</li>
+                <li class="wsp-li">字数</li>
+                <div class="clear"></div>
+            </ul>
+        </div>
+        <div class="ws-paixu" id="w_fenlei">
+            <ul>
+                <li class="f-bold">全部分类</li>
+                <li class="wsp-li ws-color">青春</li>
+                <li class="wsp-li">古言</li>
+                <li class="wsp-li">现代言情</li>
+                <li class="wsp-li">玄幻</li>
+                <li class="wsp-li">科幻</li>
+                <div class="clear"></div>
+            </ul>
+        </div>
+    </div>
+    <!--书籍信息显示-->
+    <div class="wn-content">
+        <!--男生-->
+        <div class="p-nei-all" id="jq_nan">
+        <a class="i-c-a" href="#">
+            <div class="i-g-content">
+                <img src="../../image/0031.png" alt="" width="80" height="100">
+            </div>
+            <div class="i-g-right">
+                <h3>铁血网页捡到女军医</h3>
+                <p class="i-gr-font">
+                    打折饿哦额哦i额嗡嗡嗡哦，啊谁家哦啊是的那就晒黑速度去啊，好我都回去我u额回去我非u请问黑啊，速度还去无哦对后期会我都好i武汉都去啊我会
+                </p>
+                <div class="i-g-span">
+                    <div class="i-gc-l">
+                        <span class="i-xuanhuan-g">玄幻</span><em>|</em><span>离矮小</span>
+                    </div>
+                    <div class="i-gc-center i-lianzai">
+                        <span>连载中</span>
+                    </div>
+                    <div class="i-gc-po">
+                        <span>浏览：45215</span>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </a>
+        <a class="i-c-a" href="#">
+            <div class="i-g-content">
+                <img src="../../image/0031.png" alt="" width="80" height="100">
+            </div>
+            <div class="i-g-right">
+                <h3>铁血网页捡到女军医</h3>
+                <p class="i-gr-font">
+                    打折饿哦额哦i额嗡嗡嗡哦，啊谁家哦啊是的那就晒黑速度去啊，好我都回去我u额回去我非u请问黑啊，速度还去无哦对后期会我都好i武汉都去啊我会
+                </p>
+                <div class="i-g-span">
+                    <div class="i-gc-l">
+                        <span class="i-xuanhuan-g">玄幻</span><em>|</em><span>离矮小</span>
+                    </div>
+                    <div class="i-gc-center i-lianzai">
+                        <span>连载中</span>
+                    </div>
+                    <div class="i-gc-po">
+                        <span>浏览：45215</span>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </a>
+        <a class="i-c-a" href="#">
+            <div class="i-g-content">
+                <img src="../../image/0031.png" alt="" width="80" height="100">
+            </div>
+            <div class="i-g-right">
+                <h3>铁血网页捡到女军医</h3>
+                <p class="i-gr-font">
+                    打折饿哦额哦i额嗡嗡嗡哦，啊谁家哦啊是的那就晒黑速度去啊，好我都回去我u额回去我非u请问黑啊，速度还去无哦对后期会我都好i武汉都去啊我会
+                </p>
+                <div class="i-g-span">
+                    <div class="i-gc-l">
+                        <span class="i-xuanhuan-g">玄幻</span><em>|</em><span>离矮小</span>
+                    </div>
+                    <div class="i-gc-center i-lianzai">
+                        <span>连载中</span>
+                    </div>
+                    <div class="i-gc-po">
+                        <span>浏览：45215</span>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </a>
+        <a class="i-c-a" href="#">
+            <div class="i-g-content">
+                <img src="../../image/0031.png" alt="" width="80" height="100">
+            </div>
+            <div class="i-g-right">
+                <h3>铁血网页捡到女军医</h3>
+                <p class="i-gr-font">
+                    打折饿哦额哦i额嗡嗡嗡哦，啊谁家哦啊是的那就晒黑速度去啊，好我都回去我u额回去我非u请问黑啊，速度还去无哦对后期会我都好i武汉都去啊我会
+                </p>
+                <div class="i-g-span">
+                    <div class="i-gc-l">
+                        <span class="i-xuanhuan-g">玄幻</span><em>|</em><span>离矮小</span>
+                    </div>
+                    <div class="i-gc-center i-lianzai">
+                        <span>连载中</span>
+                    </div>
+                    <div class="i-gc-po">
+                        <span>浏览：45215</span>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </a>
+        <a class="i-c-a" href="#">
+            <div class="i-g-content">
+                <img src="../../image/0031.png" alt="" width="80" height="100">
+            </div>
+            <div class="i-g-right">
+                <h3>铁血网页捡到女军医</h3>
+                <p class="i-gr-font">
+                    打折饿哦额哦i额嗡嗡嗡哦，啊谁家哦啊是的那就晒黑速度去啊，好我都回去我u额回去我非u请问黑啊，速度还去无哦对后期会我都好i武汉都去啊我会
+                </p>
+                <div class="i-g-span">
+                    <div class="i-gc-l">
+                        <span class="i-xuanhuan-g">玄幻</span><em>|</em><span>离矮小</span>
+                    </div>
+                    <div class="i-gc-center i-lianzai">
+                        <span>连载中</span>
+                    </div>
+                    <div class="i-gc-po">
+                        <span>浏览：45215</span>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </a>
+        <a class="i-c-a" href="#">
+            <div class="i-g-content">
+                <img src="../../image/0031.png" alt="" width="80" height="100">
+            </div>
+            <div class="i-g-right">
+                <h3>铁血网页捡到女军医</h3>
+                <p class="i-gr-font">
+                    打折饿哦额哦i额嗡嗡嗡哦，啊谁家哦啊是的那就晒黑速度去啊，好我都回去我u额回去我非u请问黑啊，速度还去无哦对后期会我都好i武汉都去啊我会
+                </p>
+                <div class="i-g-span">
+                    <div class="i-gc-l">
+                        <span class="i-xuanhuan-g">玄幻</span><em>|</em><span>离矮小</span>
+                    </div>
+                    <div class="i-gc-center i-lianzai">
+                        <span>连载中</span>
+                    </div>
+                    <div class="i-gc-po">
+                        <span>浏览：45215</span>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </a>
+        <a class="i-c-a" href="#">
+            <div class="i-g-content">
+                <img src="../../image/0031.png" alt="" width="80" height="100">
+            </div>
+            <div class="i-g-right">
+                <h3>铁血网页捡到女军医</h3>
+                <p class="i-gr-font">
+                    打折饿哦额哦i额嗡嗡嗡哦，啊谁家哦啊是的那就晒黑速度去啊，好我都回去我u额回去我非u请问黑啊，速度还去无哦对后期会我都好i武汉都去啊我会
+                </p>
+                <div class="i-g-span">
+                    <div class="i-gc-l">
+                        <span class="i-xuanhuan-g">玄幻</span><em>|</em><span>离矮小</span>
+                    </div>
+                    <div class="i-gc-center i-lianzai">
+                        <span>连载中</span>
+                    </div>
+                    <div class="i-gc-po">
+                        <span>浏览：45215</span>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </a>
+        <a class="i-c-a" href="#">
+            <div class="i-g-content">
+                <img src="../../image/0031.png" alt="" width="80" height="100">
+            </div>
+            <div class="i-g-right">
+                <h3>铁血网页捡到女军医</h3>
+                <p class="i-gr-font">
+                    打折饿哦额哦i额嗡嗡嗡哦，啊谁家哦啊是的那就晒黑速度去啊，好我都回去我u额回去我非u请问黑啊，速度还去无哦对后期会我都好i武汉都去啊我会
+                </p>
+                <div class="i-g-span">
+                    <div class="i-gc-l">
+                        <span class="i-xuanhuan-g">玄幻</span><em>|</em><span>离矮小</span>
+                    </div>
+                    <div class="i-gc-center i-lianzai">
+                        <span>连载中</span>
+                    </div>
+                    <div class="i-gc-po">
+                        <span>浏览：45215</span>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </a>
+        </div>
+        <!--女生-->
+        <div class="p-nei-all jq_hide" id="jq_nv">
+            <a class="i-c-a" href="#">
+                <div class="i-g-content">
+                    <img src="../../image/0031.png" alt="" width="80" height="100">
+                </div>
+                <div class="i-g-right">
+                    <h3>铁血网页捡到ssssss女军医</h3>
+                    <p class="i-gr-font">
+                        打折饿哦额哦i额嗡嗡嗡哦，啊谁家哦啊是的那就晒黑速度去啊，好我都回去我u额回去我非u请问黑啊，速度还去无哦对后期会我都好i武汉都去啊我会
+                    </p>
+                    <div class="i-g-span">
+                        <div class="i-gc-l">
+                            <span class="i-xuanhuan-g">玄幻</span><em>|</em><span>离矮小</span>
+                        </div>
+                        <div class="i-gc-center i-lianzai">
+                            <span>连载中</span>
+                        </div>
+                        <div class="i-gc-po">
+                            <span>浏览：45215</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </a>
+            <a class="i-c-a" href="#">
+                <div class="i-g-content">
+                    <img src="../../image/0031.png" alt="" width="80" height="100">
+                </div>
+                <div class="i-g-right">
+                    <h3>铁血网页捡到女军医</h3>
+                    <p class="i-gr-font">
+                        打折饿哦额哦i额嗡嗡嗡哦，啊谁家哦啊是的那就晒黑速度去啊，好我都回去我u额回去我非u请问黑啊，速度还去无哦对后期会我都好i武汉都去啊我会
+                    </p>
+                    <div class="i-g-span">
+                        <div class="i-gc-l">
+                            <span class="i-xuanhuan-g">玄幻</span><em>|</em><span>离矮小</span>
+                        </div>
+                        <div class="i-gc-center i-lianzai">
+                            <span>连载中</span>
+                        </div>
+                        <div class="i-gc-po">
+                            <span>浏览：45215</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </a>
+            <a class="i-c-a" href="#">
+                <div class="i-g-content">
+                    <img src="../../image/0031.png" alt="" width="80" height="100">
+                </div>
+                <div class="i-g-right">
+                    <h3>铁血网页捡到女军医</h3>
+                    <p class="i-gr-font">
+                        打折饿哦额哦i额嗡嗡嗡哦，啊谁家哦啊是的那就晒黑速度去啊，好我都回去我u额回去我非u请问黑啊，速度还去无哦对后期会我都好i武汉都去啊我会
+                    </p>
+                    <div class="i-g-span">
+                        <div class="i-gc-l">
+                            <span class="i-xuanhuan-g">玄幻</span><em>|</em><span>离矮小</span>
+                        </div>
+                        <div class="i-gc-center i-lianzai">
+                            <span>连载中</span>
+                        </div>
+                        <div class="i-gc-po">
+                            <span>浏览：45215</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </a>
+            <a class="i-c-a" href="#">
+                <div class="i-g-content">
+                    <img src="../../image/0031.png" alt="" width="80" height="100">
+                </div>
+                <div class="i-g-right">
+                    <h3>铁血网页捡到女军医</h3>
+                    <p class="i-gr-font">
+                        打折饿哦额哦i额嗡嗡嗡哦，啊谁家哦啊是的那就晒黑速度去啊，好我都回去我u额回去我非u请问黑啊，速度还去无哦对后期会我都好i武汉都去啊我会
+                    </p>
+                    <div class="i-g-span">
+                        <div class="i-gc-l">
+                            <span class="i-xuanhuan-g">玄幻</span><em>|</em><span>离矮小</span>
+                        </div>
+                        <div class="i-gc-center i-lianzai">
+                            <span>连载中</span>
+                        </div>
+                        <div class="i-gc-po">
+                            <span>浏览：45215</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </a>
+            <a class="i-c-a" href="#">
+                <div class="i-g-content">
+                    <img src="../../image/0031.png" alt="" width="80" height="100">
+                </div>
+                <div class="i-g-right">
+                    <h3>铁血网页捡到女军医</h3>
+                    <p class="i-gr-font">
+                        打折饿哦额哦i额嗡嗡嗡哦，啊谁家哦啊是的那就晒黑速度去啊，好我都回去我u额回去我非u请问黑啊，速度还去无哦对后期会我都好i武汉都去啊我会
+                    </p>
+                    <div class="i-g-span">
+                        <div class="i-gc-l">
+                            <span class="i-xuanhuan-g">玄幻</span><em>|</em><span>离矮小</span>
+                        </div>
+                        <div class="i-gc-center i-lianzai">
+                            <span>连载中</span>
+                        </div>
+                        <div class="i-gc-po">
+                            <span>浏览：45215</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </a>
+            <a class="i-c-a" href="#">
+                <div class="i-g-content">
+                    <img src="../../image/0031.png" alt="" width="80" height="100">
+                </div>
+                <div class="i-g-right">
+                    <h3>铁血网页捡到女军医</h3>
+                    <p class="i-gr-font">
+                        打折饿哦额哦i额嗡嗡嗡哦，啊谁家哦啊是的那就晒黑速度去啊，好我都回去我u额回去我非u请问黑啊，速度还去无哦对后期会我都好i武汉都去啊我会
+                    </p>
+                    <div class="i-g-span">
+                        <div class="i-gc-l">
+                            <span class="i-xuanhuan-g">玄幻</span><em>|</em><span>离矮小</span>
+                        </div>
+                        <div class="i-gc-center i-lianzai">
+                            <span>连载中</span>
+                        </div>
+                        <div class="i-gc-po">
+                            <span>浏览：45215</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </a>
+            <a class="i-c-a" href="#">
+                <div class="i-g-content">
+                    <img src="../../image/0031.png" alt="" width="80" height="100">
+                </div>
+                <div class="i-g-right">
+                    <h3>铁血网页捡到女军医</h3>
+                    <p class="i-gr-font">
+                        打折饿哦额哦i额嗡嗡嗡哦，啊谁家哦啊是的那就晒黑速度去啊，好我都回去我u额回去我非u请问黑啊，速度还去无哦对后期会我都好i武汉都去啊我会
+                    </p>
+                    <div class="i-g-span">
+                        <div class="i-gc-l">
+                            <span class="i-xuanhuan-g">玄幻</span><em>|</em><span>离矮小</span>
+                        </div>
+                        <div class="i-gc-center i-lianzai">
+                            <span>连载中</span>
+                        </div>
+                        <div class="i-gc-po">
+                            <span>浏览：45215</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </a>
+            <a class="i-c-a" href="#">
+                <div class="i-g-content">
+                    <img src="../../image/0031.png" alt="" width="80" height="100">
+                </div>
+                <div class="i-g-right">
+                    <h3>铁血网页捡到女军医</h3>
+                    <p class="i-gr-font">
+                        打折饿哦额哦i额嗡嗡嗡哦，啊谁家哦啊是的那就晒黑速度去啊，好我都回去我u额回去我非u请问黑啊，速度还去无哦对后期会我都好i武汉都去啊我会
+                    </p>
+                    <div class="i-g-span">
+                        <div class="i-gc-l">
+                            <span class="i-xuanhuan-g">玄幻</span><em>|</em><span>离矮小</span>
+                        </div>
+                        <div class="i-gc-center i-lianzai">
+                            <span>连载中</span>
+                        </div>
+                        <div class="i-gc-po">
+                            <span>浏览：45215</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </a>
+        </div>
+        <!--完本-->
+        <div class="p-nei-all jq_hide" id="jq_wan">
+            <a class="i-c-a" href="#">
+                <div class="i-g-content">
+                    <img src="../../image/0031.png" alt="" width="80" height="100">
+                </div>
+                <div class="i-g-right">
+                    <h3>铁血网页捡到女aaaa军医</h3>
+                    <p class="i-gr-font">
+                        打折饿哦额哦i额嗡嗡嗡哦，啊谁家哦啊是的那就晒黑速度去啊，好我都回去我u额回去我非u请问黑啊，速度还去无哦对后期会我都好i武汉都去啊我会
+                    </p>
+                    <div class="i-g-span">
+                        <div class="i-gc-l">
+                            <span class="i-xuanhuan-g">玄幻</span><em>|</em><span>离矮小</span>
+                        </div>
+                        <div class="i-gc-center i-lianzai">
+                            <span>连载中</span>
+                        </div>
+                        <div class="i-gc-po">
+                            <span>浏览：45215</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </a>
+            <a class="i-c-a" href="#">
+                <div class="i-g-content">
+                    <img src="../../image/0031.png" alt="" width="80" height="100">
+                </div>
+                <div class="i-g-right">
+                    <h3>铁血网页捡到女军医</h3>
+                    <p class="i-gr-font">
+                        打折饿哦额哦i额嗡嗡嗡哦，啊谁家哦啊是的那就晒黑速度去啊，好我都回去我u额回去我非u请问黑啊，速度还去无哦对后期会我都好i武汉都去啊我会
+                    </p>
+                    <div class="i-g-span">
+                        <div class="i-gc-l">
+                            <span class="i-xuanhuan-g">玄幻</span><em>|</em><span>离矮小</span>
+                        </div>
+                        <div class="i-gc-center i-lianzai">
+                            <span>连载中</span>
+                        </div>
+                        <div class="i-gc-po">
+                            <span>浏览：45215</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </a>
+            <a class="i-c-a" href="#">
+                <div class="i-g-content">
+                    <img src="../../image/0031.png" alt="" width="80" height="100">
+                </div>
+                <div class="i-g-right">
+                    <h3>铁血网页捡到女军医</h3>
+                    <p class="i-gr-font">
+                        打折饿哦额哦i额嗡嗡嗡哦，啊谁家哦啊是的那就晒黑速度去啊，好我都回去我u额回去我非u请问黑啊，速度还去无哦对后期会我都好i武汉都去啊我会
+                    </p>
+                    <div class="i-g-span">
+                        <div class="i-gc-l">
+                            <span class="i-xuanhuan-g">玄幻</span><em>|</em><span>离矮小</span>
+                        </div>
+                        <div class="i-gc-center i-lianzai">
+                            <span>连载中</span>
+                        </div>
+                        <div class="i-gc-po">
+                            <span>浏览：45215</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </a>
+            <a class="i-c-a" href="#">
+                <div class="i-g-content">
+                    <img src="../../image/0031.png" alt="" width="80" height="100">
+                </div>
+                <div class="i-g-right">
+                    <h3>铁血网页捡到女军医</h3>
+                    <p class="i-gr-font">
+                        打折饿哦额哦i额嗡嗡嗡哦，啊谁家哦啊是的那就晒黑速度去啊，好我都回去我u额回去我非u请问黑啊，速度还去无哦对后期会我都好i武汉都去啊我会
+                    </p>
+                    <div class="i-g-span">
+                        <div class="i-gc-l">
+                            <span class="i-xuanhuan-g">玄幻</span><em>|</em><span>离矮小</span>
+                        </div>
+                        <div class="i-gc-center i-lianzai">
+                            <span>连载中</span>
+                        </div>
+                        <div class="i-gc-po">
+                            <span>浏览：45215</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </a>
+            <a class="i-c-a" href="#">
+                <div class="i-g-content">
+                    <img src="../../image/0031.png" alt="" width="80" height="100">
+                </div>
+                <div class="i-g-right">
+                    <h3>铁血网页捡到女军医</h3>
+                    <p class="i-gr-font">
+                        打折饿哦额哦i额嗡嗡嗡哦，啊谁家哦啊是的那就晒黑速度去啊，好我都回去我u额回去我非u请问黑啊，速度还去无哦对后期会我都好i武汉都去啊我会
+                    </p>
+                    <div class="i-g-span">
+                        <div class="i-gc-l">
+                            <span class="i-xuanhuan-g">玄幻</span><em>|</em><span>离矮小</span>
+                        </div>
+                        <div class="i-gc-center i-lianzai">
+                            <span>连载中</span>
+                        </div>
+                        <div class="i-gc-po">
+                            <span>浏览：45215</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </a>
+            <a class="i-c-a" href="#">
+                <div class="i-g-content">
+                    <img src="../../image/0031.png" alt="" width="80" height="100">
+                </div>
+                <div class="i-g-right">
+                    <h3>铁血网页捡到女军医</h3>
+                    <p class="i-gr-font">
+                        打折饿哦额哦i额嗡嗡嗡哦，啊谁家哦啊是的那就晒黑速度去啊，好我都回去我u额回去我非u请问黑啊，速度还去无哦对后期会我都好i武汉都去啊我会
+                    </p>
+                    <div class="i-g-span">
+                        <div class="i-gc-l">
+                            <span class="i-xuanhuan-g">玄幻</span><em>|</em><span>离矮小</span>
+                        </div>
+                        <div class="i-gc-center i-lianzai">
+                            <span>连载中</span>
+                        </div>
+                        <div class="i-gc-po">
+                            <span>浏览：45215</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </a>
+            <a class="i-c-a" href="#">
+                <div class="i-g-content">
+                    <img src="../../image/0031.png" alt="" width="80" height="100">
+                </div>
+                <div class="i-g-right">
+                    <h3>铁血网页捡到女军医</h3>
+                    <p class="i-gr-font">
+                        打折饿哦额哦i额嗡嗡嗡哦，啊谁家哦啊是的那就晒黑速度去啊，好我都回去我u额回去我非u请问黑啊，速度还去无哦对后期会我都好i武汉都去啊我会
+                    </p>
+                    <div class="i-g-span">
+                        <div class="i-gc-l">
+                            <span class="i-xuanhuan-g">玄幻</span><em>|</em><span>离矮小</span>
+                        </div>
+                        <div class="i-gc-center i-lianzai">
+                            <span>连载中</span>
+                        </div>
+                        <div class="i-gc-po">
+                            <span>浏览：45215</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </a>
+            <a class="i-c-a" href="#">
+                <div class="i-g-content">
+                    <img src="../../image/0031.png" alt="" width="80" height="100">
+                </div>
+                <div class="i-g-right">
+                    <h3>铁血网页捡到女军医</h3>
+                    <p class="i-gr-font">
+                        打折饿哦额哦i额嗡嗡嗡哦，啊谁家哦啊是的那就晒黑速度去啊，好我都回去我u额回去我非u请问黑啊，速度还去无哦对后期会我都好i武汉都去啊我会
+                    </p>
+                    <div class="i-g-span">
+                        <div class="i-gc-l">
+                            <span class="i-xuanhuan-g">玄幻</span><em>|</em><span>离矮小</span>
+                        </div>
+                        <div class="i-gc-center i-lianzai">
+                            <span>连载中</span>
+                        </div>
+                        <div class="i-gc-po">
+                            <span>浏览：45215</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </a>
+        </div>
+    </div>
+</div>
+</body>
+</html>

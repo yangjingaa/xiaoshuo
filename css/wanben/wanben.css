@@ -1,0 +1,58 @@
+.w-nvfenlei{
+    height: 30px;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+
+.wn-peo{
+    display: inline-block;
+}
+
+.wn-li{
+    height: 30px;
+    line-height: 30px;
+    border-right: 1px solid #ccc;
+    font-size: 13px;
+    float: left;
+    width: 60px;
+    text-align: center;
+}
+
+.wn-img{
+    width: 15px;
+    height: 18px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+
+.wn-content{
+    width: 100%;
+    padding-left: 10px;
+    padding-bottom: 12px;
+}
+.wn-shaixuan{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width:100%;
+    padding: 0 10px;
+    background: #fff;
+    color: #888;
+    padding-bottom: 10px;
+}
+
+.ws-paixu{
+    padding-top: 11px;
+}
+
+.wsp-li{
+    float: left;
+    margin-right: 19px;
+    margin-top: 3px;
+    font-size: 13px;
+}
+
+.wsp-li.ws-color{
+    color: #ff7b1a;
+}

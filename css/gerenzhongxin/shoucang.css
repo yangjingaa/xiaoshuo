@@ -1,0 +1,37 @@
+.gc-content{
+    padding: 13px 10px;
+
+}
+
+.gc-box{
+    width: 33.3%;
+    float: left;
+    margin-bottom: 10px;
+}
+.gc-box:nth-child(3n+1){
+    text-align: left;
+}
+
+.gc-box:nth-child(3n+2){
+    text-align: center;
+}
+.gc-box:nth-child(3n){
+    text-align: right;
+}
+
+.w-c-stroa{
+    width: 80px;
+    height: 100px;
+    display: inline-block;
+}
+
+.w-c-stroa p{
+    width: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin: 3px 0;
+}

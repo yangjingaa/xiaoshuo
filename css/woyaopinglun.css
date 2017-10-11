@@ -1,0 +1,63 @@
+.pl-content{
+    position: relative;
+}
+
+.pl-star{
+    margin:  13px 0;
+    text-align: center;
+}
+
+.pls-star{
+    margin-bottom: 13px;
+}
+
+.pls-star span{
+    display: inline-block;
+    background: url("../image/book_xingji1_image.png") no-repeat;
+    background-size: 26px 25px;
+    margin-left: 15px;
+    width: 26px;
+    height: 25px;
+}
+
+.pls-star .pls-mar{
+    margin-left: 0;
+}
+
+.pls-star span.xingxing{
+    background: url("../image/book_xingji_image.png") no-repeat;
+    background-size: 26px 25px;
+}
+
+.pls-font{
+    color: #ccc;
+    font-size: 13px;
+}
+
+.pl-pinglun{
+    padding: 10px 10px;
+    min-height: 110px;
+    background: #fff;
+    color: #888;
+}
+
+.pl-zishu{
+    position: absolute;
+    bottom:3px;
+    right: 10px;
+    color: #888;
+}
+
+.pl-submit{
+    margin: 25px auto;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    width: 250px;
+    background: #ff7b1a;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}

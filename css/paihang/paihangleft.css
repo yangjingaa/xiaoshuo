@@ -1,0 +1,54 @@
+.p-l-neirong{
+    width: 100%;
+    text-align: center;
+    background: #fff;
+}
+
+.p-nei-left{
+    float: left;
+    height: 464px;
+    width: 27%;
+    background: #f3f3f3;
+}
+
+.p-l-li{
+    height: 30px;
+    line-height: 30px;
+}
+
+.p-l-li.p-li-active{
+    background: #fff;
+    color:#ff7b1a;
+}
+
+.p-nei-right{
+    float:right;
+    background: #fff;
+}
+
+.p-nei-fenlei{
+
+}
+
+.p-rc-xuan{
+    color: #ff7b1a;
+}
+
+.p-lh-li{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 13px;
+    background: #fff;
+    float: left;
+    width: 33.3%;
+    border-right: 1px solid #d5d5d5;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+
+
+

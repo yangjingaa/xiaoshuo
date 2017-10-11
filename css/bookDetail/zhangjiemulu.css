@@ -1,0 +1,56 @@
+.zj-content{
+
+}
+
+.zj-zong{
+    padding: 0 10px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.zjz-paixu{
+    float: right;
+    display: inline-block;
+    height: 21px;
+    width: 50px;
+    line-height: 21px;
+    text-align: center;
+    color: #ff7b1a;
+    border: 1px solid #ff7b1a;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-top: 4px;
+}
+
+.zjz-paixu.zj-sepai{
+    color: #fff;
+    background: #ff7b1a;
+}
+
+.zj-btimu{
+    padding: 0 10px;
+    background: #fbe8db;
+    font-size: 14px;
+    height: 21px;
+    line-height: 21px;
+    color: #ff7b1a;
+}
+
+.zjx-mulu{
+    padding: 0 10px 15px;
+
+}
+
+.zjx-mli{
+    align-content: flex-end;
+    padding-bottom: 6px;
+    color: #888;
+    border-bottom: 1px solid #ccc;
+    padding-top: 15px;
+}
+
+
+

@@ -1,0 +1,510 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>小说阁手机版</title>
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <meta name="generator" content="DESTOON B2B - www.destoon.com"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-title" content="小说阁手机版"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+    <link rel="apple-touch-icon-precomposed" href="http://xiaoshuo.yewu99.com:8089/mobile/apple-touch-icon-precomposed.png"/>
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="128x128" href="http://xiaoshuo.yewu99.com:8089/mobile/apple-touch-icon-precomposed.png">
+    <meta name="msapplication-TileImage" content="apple-touch-icon-precomposed.png">
+    <meta name="msapplication-TileColor" content="#007AFF">
+    <link rel="shortcut icon" type="image/x-icon" href="http://xiaoshuo.yewu99.com:8089/favicon.ico"/>
+    <link rel="bookmark" type="image/x-icon" href="http://xiaoshuo.yewu99.com:8089/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="http://xiaoshuo.yewu99.com:8089/mobile/static/lib/jquery/jquery.mobile.custom.structure.min.css"/>
+    <link rel="stylesheet" type="text/css" href="http://xiaoshuo.yewu99.com:8089/mobile/static/style.css"/>
+    <script type="text/javascript" src="http://xiaoshuo.yewu99.com:8089/mobile/static/lib/jquery/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).bind("mobileinit", function() {
+            $.mobile.defaultPageTransition = 'slide';
+        });
+        var AJPath = 'ajax.php';
+        var Dbrowser = '';
+    </script>
+    <script type="text/javascript" src="http://xiaoshuo.yewu99.com:8089/mobile/static/lib/jquery/jquery.mobile.custom.min.js"></script>
+    <script type="text/javascript" src="http://xiaoshuo.yewu99.com:8089/mobile/static/js/common.js"></script>
+    <script type="text/javascript" src="http://xiaoshuo.yewu99.com:8089/mobile/static/js/fix.js"></script>
+</head>
+<body>
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/index.css">
+<link rel="stylesheet" href="../css/book_content.css">
+<script src="../js/index.js"></script>
+<div class="base">
+    <!--头部-->
+    <div class="h-t-search">
+        <span class="h-s-search">xxx小说网</span>
+        <a class="r-s-img" href="#"><img src="../image/index/index_wode_link.png" alt="" width="20" height="20"></a>
+        <div class="h-s-input">
+            <input type="text" placeholder="三生三世十里桃花">
+            <a class="r-ss-img" href="#"><img src="../image/index/index_search_search.png" width="7" height="7" alt=""></a>
+        </div>
+    </div>
+    <!--轮播图-->
+    <div class="i-bannor">
+
+    </div>
+    <!--排行榜，个性频道-->
+    <div class="i-rank-sex">
+        <ul>
+            <li class="i-rs-li ">
+                <a href="#"><div class="base-background base-index index_bei"></div><span>排行榜</span></a>
+            </li>
+            <li class="i-rs-li ">
+                <a href="#"><div class="base-background base-index index_girl"></div><span>女生频道</span></a>
+            </li>
+            <li class="i-rs-li ">
+                <a href="#"><div class="base-background base-index index_wan"></div><span>完结</span></a>
+            </li>
+            <li class="i-rs-li ">
+                <a href="#"><div class="base-background base-index index_gexing"></div><span>个性频道</span></a>
+            </li>
+            <li class="i-rs-li ">
+                <a href="#"><div class="base-background  base-index index_boy"></div><span>男生频道</span></a>
+            </li>
+            <li class="i-rs-li ">
+                <a href="#"><div class="base-background  base-index index_mian"></div><span>免费</span></a>
+            </li>
+            <div class="clear"></div>
+        </ul>
+    </div>
+    <!--内容-->
+    <div class="i-content" id="i-content">
+        <!--热门小说-->
+        <div class="i-content-a">
+            <span class="i-c-title">热门小说</span>
+            <div class="i-c-list" id="i-hot-nov">
+                <div class="i-c-stroe">
+                    <a class="i-c-stroa" href="#">
+                        <img src="../image/0031.png" width="80" height="100" alt="">
+                        <p>我从凡间来，打不死的小强</p>
+                    </a>
+                    <div class="i-b-fenlei">
+                        <span class="i-c-fontActive">玄幻</span><em>|</em><span>起死回生</span>
+                    </div>
+                </div>
+                <div class="i-c-stroe">
+                    <a class="i-c-stroa" href="#">
+                        <img src="../image/0031.png" width="80" height="100" alt="">
+                        <p>a我从凡间来，打不死的小强</p>
+                    </a>
+                    <div class="i-b-fenlei">
+                        <span class="i-c-fontActive">玄幻</span><em>|</em><span>起死回生</span>
+                    </div>
+                </div>
+                <div class="i-c-stroe">
+                    <a class="i-c-stroa" href="#">
+                        <img src="../image/0031.png" width="80" height="100" alt="">
+                        <p>b我从凡间来，打不死的小强</p>
+                    </a>
+                    <div class="i-b-fenlei">
+                        <span class="i-c-fontActive">玄幻</span><em>|</em><span>起死回生</span>
+                    </div>
+                </div>
+                <div class="i-c-stroe">
+                    <a class="i-c-stroa" href="#">
+                        <img src="../image/0031.png" width="80" height="100" alt="">
+                        <p>c我从凡间来，打不死的小强</p>
+                    </a>
+                    <div class="i-b-fenlei">
+                        <span class="i-c-fontActive">玄幻</span><em>|</em><span>起死回生</span>
+                    </div>
+                </div>
+                <div class="i-c-stroe">
+                    <a class="i-c-stroa" href="#">
+                        <img src="../image/0031.png" width="80" height="100" alt="">
+                        <p>d我从凡间来，打不死的小强</p>
+                    </a>
+                    <div class="i-b-fenlei">
+                        <span class="i-c-fontActive">玄幻</span><em>|</em><span>起死回生</span>
+                    </div>
+                </div>
+                <div class="i-c-stroe">
+                    <a class="i-c-stroa" href="#">
+                        <img src="../image/0031.png" width="80" height="100" alt="">
+                        <p>e我从凡间来，打不死的小强</p>
+                    </a>
+                    <div class="i-b-fenlei">
+                        <span class="i-c-fontActive">玄幻</span><em>|</em><span>起死回生</span>
+                    </div>
+                </div>
+                <div class="i-c-stroe">
+                    <a class="i-c-stroa" href="#">
+                        <img src="../image/0031.png" width="80" height="100" alt="">
+                        <p>f我从凡间来，打不死的小强</p>
+                    </a>
+                    <div class="i-b-fenlei">
+                        <span class="i-c-fontActive">玄幻</span><em>|</em><span>起死回生</span>
+                    </div>
+                </div>
+                <div class="i-c-stroe">
+                    <a class="i-c-stroa" href="#">
+                        <img src="../image/0031.png" width="80" height="100" alt="">
+                        <p>g我从凡间来，打不死的小强</p>
+                    </a>
+                    <div class="i-b-fenlei">
+                        <span class="i-c-fontActive">玄幻</span><em>|</em><span>起死回生</span>
+                    </div>
+                </div>
+                <div class="i-c-stroe">
+                    <a class="i-c-stroa" href="#">
+                        <img src="../image/0031.png" width="80" height="100" alt="">
+                        <p>h我从凡间来，打不死的小强</p>
+                    </a>
+                    <div class="i-b-fenlei">
+                        <span class="i-c-fontActive">玄幻</span><em>|</em><span>起死回生</span>
+                    </div>
+                </div>
+                <div class="i-c-stroe">
+                    <a class="i-c-stroa" href="#">
+                        <img src="../image/0031.png" width="80" height="100" alt="">
+                        <p>i我从凡间来，打不死的小强</p>
+                    </a>
+                    <div class="i-b-fenlei">
+                        <span class="i-c-fontActive">玄幻</span><em>|</em><span>起死回生</span>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <!--女生爱看-->
+        <div class="i-content-a i-c-shang">
+            <div class="i-cisd">
+                <div class="i-c-title i-c-titlegir">女生爱看</div>
+                <a href="#" class="i-c-more">更多></a>
+            </div>
+            <a class="i-c-a" href="#">
+                <div class="i-g-content">
+                    <img src="../image/0031.png" alt="" width="80" height="100">
+                </div>
+                <div class="i-g-right">
+                    <h3>铁血网页捡到女军医</h3>
+                    <p class="i-gr-font">
+                        打折饿哦额哦i额嗡嗡嗡哦，啊
+                    </p>
+                    <div class="i-g-span">
+                        <div class="i-gc-l">
+                            <span class="i-xuanhuan-g">玄幻</span><em>|</em><span>离矮小</span>
+                        </div>
+                        <div class="i-gc-center i-lianzai">
+                            <span>连载中</span>
+                        </div>
+                        <div class="i-gc-po">
+                            <span>浏览：45215</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </a>
+            <a class="i-c-a" href="#">
+                <div class="i-g-content">
+                    <img src="../image/0031.png" alt="" width="80" height="100">
+                </div>
+                <div class="i-g-right">
+                    <h3>铁血网页捡到女军医</h3>
+                    <p class="i-gr-font">
+                        打折饿哦额哦i额嗡嗡嗡哦，啊谁家哦啊是的那就晒黑速度去啊，好我都回去我u额回去我非u请问黑啊，速度还去无哦对后期会我都好i武汉都去啊我会
+                    </p>
+                    <div class="i-g-span">
+                        <div class="i-gc-l">
+                            <span class="i-xuanhuan-g">玄幻</span><em>|</em><span>离矮小</span>
+                        </div>
+                        <div class="i-gc-center i-xuanhuan-g">
+                            <span>已完结</span>
+                        </div>
+                        <div class="i-gc-po">
+                            <span>浏览：45215</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </a>
+            <a class="i-c-a" href="#">
+                <div class="i-g-content">
+                    <img src="../image/0031.png" alt="" width="80" height="100">
+                </div>
+                <div class="i-g-right">
+                    <h3>铁血网页捡到女军医</h3>
+                    <p class="i-gr-font">
+                        打折饿哦额哦i额嗡嗡嗡哦，啊谁家哦啊是的那就晒黑速度去啊，好我都回去我u额回去我非u请问黑啊，速度还去无哦对后期会我都好i武汉都去啊我会
+                    </p>
+                    <div class="i-g-span">
+                        <div class="i-gc-l">
+                            <span class="i-xuanhuan-g">玄幻</span><em>|</em><span>离矮小</span>
+                        </div>
+                        <div class="i-gc-center i-xuanhuan-g">
+                            <span>已完结</span>
+                        </div>
+                        <div class="i-gc-po">
+                            <span>浏览：45215</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </a>
+        </div>
+        <!--男生爱看-->
+        <div class="i-content-a i-c-shang">
+            <div class="i-cisd">
+                <div class="i-c-title i-c-titleboy">男生爱看</div>
+                <a href="#" class="i-c-more">更多></a>
+            </div>
+            <a class="i-c-a" href="#">
+                <div class="i-g-content">
+                    <img src="../image/0031.png" alt="" width="80" height="100">
+                </div>
+                <div class="i-g-right">
+                    <h3>铁血网页捡到女军医</h3>
+                    <p class="i-gr-font">
+                        打折饿哦额哦i额嗡嗡嗡哦，啊谁家哦啊是的那就晒黑速度去啊，好我都回去我u额回去我非u请问黑啊，速度还去无哦对后期会我都好i武汉都去啊我会
+                    </p>
+                    <div class="i-g-span">
+                        <div class="i-gc-l">
+                            <span class="i-xuanhuan-b">玄幻</span><em>|</em><span>离矮小</span>
+                        </div>
+                        <div class="i-gc-center i-lianzai">
+                            <span>连载中</span>
+                        </div>
+                        <div class="i-gc-po">
+                            <span>浏览：45215</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </a>
+            <a class="i-c-a" href="#">
+                <div class="i-g-content">
+                    <img src="../image/0031.png" alt="" width="80" height="100">
+                </div>
+                <div class="i-g-right">
+                    <h3>铁血网页捡到女军医</h3>
+                    <p class="i-gr-font">
+                        打折饿哦额哦i额嗡嗡嗡哦，啊谁家哦啊是的那就晒黑速度去啊，好我都回去我u额回去我非u请问黑啊，速度还去无哦对后期会我都好i武汉都去啊我会
+                    </p>
+                    <div class="i-g-span">
+                        <div class="i-gc-l">
+                            <span class="i-xuanhuan-b">玄幻</span><em>|</em><span>离矮小</span>
+                        </div>
+                        <div class="i-gc-center i-xuanhuan-b">
+                            <span>已完结</span>
+                        </div>
+                        <div class="i-gc-po">
+                            <span>浏览：45215</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </a>
+            <a class="i-c-a" href="#">
+                <div class="i-g-content">
+                    <img src="../image/0031.png" alt="" width="80" height="100">
+                </div>
+                <div class="i-g-right">
+                    <h3>铁血网页捡到女军医</h3>
+                    <p class="i-gr-font">
+                        打折饿哦额哦i额嗡嗡嗡哦，啊谁家哦啊是的那就晒黑速度去啊，好我都回去我u额回去我非u请问黑啊，速度还去无哦对后期会我都好i武汉都去啊我会
+                    </p>
+                    <div class="i-g-span">
+                        <div class="i-gc-l">
+                            <span class="i-xuanhuan-b">玄幻</span><em>|</em><span>离矮小</span>
+                        </div>
+                        <div class="i-gc-center i-xuanhuan-b">
+                            <span>已完结</span>
+                        </div>
+                        <div class="i-gc-po">
+                            <span>浏览：45215</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </a>
+        </div>
+        <!--人气完本-->
+        <div class="i-content-a i-c-shang">
+            <div class="i-cisd">
+                <div class="i-c-title i-c-titlewan">人气完本</div>
+                <a href="#" class="i-c-more">更多></a>
+            </div>
+            <div class="i-wan-book">
+                <div class="i-wan-list">
+                    <div class="i-c-stroe">
+                        <a class="i-c-stroa" href="#">
+                            <img src="../image/0031.png" width="80" height="100" alt="">
+                            <p>我从凡间来，打不死的小强</p>
+                        </a>
+                        <div class="i-b-fenlei">
+                            <span class="i-c-fontActive">玄幻</span><em>|</em><span>起死回生</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="i-wan-list">
+                    <div class="i-c-stroe">
+                        <a class="i-c-stroa" href="#">
+                            <img src="../image/0031.png" width="80" height="100" alt="">
+                            <p>我从凡间来，打不死的小强</p>
+                        </a>
+                        <div class="i-b-fenlei">
+                            <span class="i-c-fontActive">玄幻</span><em>|</em><span>起死回生</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="i-wan-list">
+                    <div class="i-c-stroe">
+                        <a class="i-c-stroa" href="#">
+                            <img src="../image/0031.png" width="80" height="100" alt="">
+                            <p>我从凡间来，打不死的小强</p>
+                        </a>
+                        <div class="i-b-fenlei">
+                            <span class="i-c-fontActive">玄幻</span><em>|</em><span>起死回生</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="i-wan-list">
+                    <div class="i-c-stroe">
+                        <a class="i-c-stroa" href="#">
+                            <img src="../image/0031.png" width="80" height="100" alt="">
+                            <p>我从凡间来，打不死的小强</p>
+                        </a>
+                        <div class="i-b-fenlei">
+                            <span class="i-c-fontActive">玄幻</span><em>|</em><span>起死回生</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="i-wan-list">
+                    <div class="i-c-stroe">
+                        <a class="i-c-stroa" href="#">
+                            <img src="../image/0031.png" width="80" height="100" alt="">
+                            <p>我从凡间来，打不死的小强</p>
+                        </a>
+                        <div class="i-b-fenlei">
+                            <span class="i-c-fontActive">玄幻</span><em>|</em><span>起死回生</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="i-wan-list">
+                    <div class="i-c-stroe">
+                        <a class="i-c-stroa" href="#">
+                            <img src="../image/0031.png" width="80" height="100" alt="">
+                            <p>我从凡间来，打不死的小强</p>
+                        </a>
+                        <div class="i-b-fenlei">
+                            <span class="i-c-fontActive">玄幻</span><em>|</em><span>起死回生</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <!--底部登录注册-->
+    <div class="f">
+        <div class="f-content">
+            <a href="#"><span class="f-zhanghao">账号注册</span></a><span></span><em>|</em><a href="#"><span
+                class="f-denglu">立即登陆</span></a>
+        </div>
+    </div>
+    <!--最近阅读图标-->
+    <div class="r-read" id="r_near_read">
+        <div class="base-background r-zuij "></div>
+    </div>
+    <!--最近阅读页面-->
+    <div class="r-content jq_hide" id="r_content">
+        <div class="r-r-title">最近阅读</div>
+        <!--未登录-->
+        <div class="r-no-login jq_hide">
+            <div class="r-r-content">
+                <img src="../image/index/index_bg_tipe.png" width="155" height="150" alt="">
+            </div>
+            <!--登录-->
+            <a href="#">
+                <div class="r-r-login">
+                    立即登陆
+                </div>
+            </a>
+        </div>
+        <!--最近阅读-->
+        <div class="r-zuijin-readw jq_hide">
+            <!--阅读列表-->
+            <div class="r-c-readlist">
+                <!--最近阅读列表-->
+                <div class="r-c-lista">
+                    <p class="r-biaoti">我从凡间来</p>
+                    <div class="r-lista-m">
+                        <span>读至</span><span class="r-lista-zhang">第23章</span><span>同挂显示</span>
+                    </div>
+                    <p class="r-min-a">14分钟前</p>
+                    <a href="#">
+                        <div class="r-contiue-reda">
+                            <span>继续阅读></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="r-c-lista">
+                    <p class="r-biaoti">我从凡间来</p>
+                    <div class="r-lista-m">
+                        <span>读至</span><span class="r-lista-zhang">第23章</span><span>同挂显示</span>
+                    </div>
+                    <p class="r-min-a">14分钟前</p>
+                    <a href="#">
+                        <div class="r-contiue-reda">
+                            <span>继续阅读></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="r-c-lista">
+                    <p class="r-biaoti">我从凡间来</p>
+                    <div class="r-lista-m">
+                        <span>读至</span><span class="r-lista-zhang">第23章</span><span>同挂显示</span>
+                    </div>
+                    <p class="r-min-a">14分钟前</p>
+                    <a href="#">
+                        <div class="r-contiue-reda">
+                            <span>继续阅读></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="r-c-lista">
+                    <p class="r-biaoti">我从凡间来</p>
+                    <div class="r-lista-m">
+                        <span>读至</span><span class="r-lista-zhang">第23章</span><span>同挂显示</span>
+                    </div>
+                    <p class="r-min-a">14分钟前</p>
+                    <a href="#">
+                        <div class="r-contiue-reda">
+                            <span>继续阅读></span>
+                        </div>
+                    </a>
+                </div>
+                <div class="r-c-lista">
+                    <p class="r-biaoti">我从凡间来</p>
+                    <div class="r-lista-m">
+                        <span>读至</span><span class="r-lista-zhang">第23章</span><span>同挂显示</span>
+                    </div>
+                    <p class="r-min-a">14分钟前</p>
+                    <a href="#">
+                        <div class="r-contiue-reda">
+                            <span>继续阅读></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!--我的收藏按钮-->
+            <div class="r-my-collect">
+                <a href="#">
+                    <div class="r-r-login">
+                        我的收藏
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

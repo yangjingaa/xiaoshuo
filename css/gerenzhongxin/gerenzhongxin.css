@@ -1,0 +1,74 @@
+.g-r-conter{
+    background: #f3f3f3;
+
+}
+
+.gr-tou{
+    /*height: 120px;*/
+    width: 100%;
+    text-align: center;
+    padding-top: 14px;
+    background: #fff;
+    margin-bottom: 5px;
+    padding-bottom: 6px;
+}
+
+.gr-touxiang{
+    height: 80px;
+    width: 80px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+.gr-name{
+    margin: 0 auto;
+}
+.gr-name input{
+    text-align: center;
+    color: #ff7b1a;
+    font-size: 13px;
+}
+
+.gr-list{
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 6px;
+    background: #fff;
+    padding:0 10px 0 13px;
+    color:#000;
+}
+
+.gr-list img{
+    margin-top: -5px;
+}
+
+.gr-collect{
+    margin-left: 13px;
+    font-size: 14px;
+}
+
+.gr-right{
+    float: right;
+    margin-top: 12px !important;
+}
+
+.gr-logout{
+    margin: 37px auto 0;
+    width: 250px;
+    background: #ff7b1a;
+    font-size: 14px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+
+

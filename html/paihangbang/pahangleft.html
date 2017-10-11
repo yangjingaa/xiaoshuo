@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>小说阁手机版</title>
+    <meta name="viewport"
+          content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <meta name="generator" content="DESTOON B2B - www.destoon.com"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-title" content="小说阁手机版"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+    <link rel="apple-touch-icon-precomposed"
+          href="http://xiaoshuo.yewu99.com:8089/mobile/apple-touch-icon-precomposed.png"/>
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="128x128" href="http://xiaoshuo.yewu99.com:8089/mobile/apple-touch-icon-precomposed.png">
+    <meta name="msapplication-TileImage" content="apple-touch-icon-precomposed.png">
+    <meta name="msapplication-TileColor" content="#007AFF">
+    <link rel="shortcut icon" type="image/x-icon" href="http://xiaoshuo.yewu99.com:8089/favicon.ico"/>
+    <link rel="bookmark" type="image/x-icon" href="http://xiaoshuo.yewu99.com:8089/favicon.ico"/>
+    <link rel="stylesheet" type="text/css"
+          href="http://xiaoshuo.yewu99.com:8089/mobile/static/lib/jquery/jquery.mobile.custom.structure.min.css"/>
+    <link rel="stylesheet" type="text/css" href="http://xiaoshuo.yewu99.com:8089/mobile/static/style.css"/>
+    <script type="text/javascript"
+            src="http://xiaoshuo.yewu99.com:8089/mobile/static/lib/jquery/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).bind("mobileinit", function () {
+            $.mobile.defaultPageTransition = 'slide';
+        });
+        var AJPath = 'ajax.php';
+        var Dbrowser = '';
+    </script>
+    <script type="text/javascript"
+            src="http://xiaoshuo.yewu99.com:8089/mobile/static/lib/jquery/jquery.mobile.custom.min.js"></script>
+    <script type="text/javascript" src="http://xiaoshuo.yewu99.com:8089/mobile/static/js/common.js"></script>
+    <script type="text/javascript" src="http://xiaoshuo.yewu99.com:8089/mobile/static/js/fix.js"></script>
+</head>
+<body>
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/paihang/paihangleft.css">
+<!--<link rel="stylesheet" href="../../css/paihang/paihangContent.css">-->
+<script src="../../js/paihang/paihangleft.js"></script>
+<div class="base">
+    <!--头部-->
+    <div class="p-h-back">
+        <img class="p-h-ile" src="../../image/paihang/all_back_link.png" width="18" height="15" alt="">
+        <span>排行榜</span>
+        <img class="p-h-iri" src="../../image/paihang/index_wode_link.png" width="20" height="20" alt="">
+    </div>
+    <div class="p-l-neirong">
+        <!--左榜单-->
+        <div class="p-nei-left">
+            <ul>
+                <li class="p-l-li p-li-active">今日点击榜</li>
+                <li class="p-l-li">本周点击榜</li>
+                <li class="p-l-li">本周收藏榜</li>
+                <li class="p-l-li">总点击榜</li>
+                <li class="p-l-li">总收藏榜</li>
+                <li class="p-l-li">总字数榜</li>
+                <li class="p-l-li">完本排行榜</li>
+                <li class="p-l-li">新书榜</li>
+                <li class="p-l-li">最近阅读榜</li>
+            </ul>
+        </div>
+        <!--书籍列表-->
+        <div id="p-nei-right" class="p-nei-right">
+            <div class="p-nei-fenlei">
+                <ul>
+                    <li class="p-lh-li p-l-liclick" data-class="all_content">全部</li>
+                    <li class="p-lh-li" data-class="boy_content">男生</li>
+                    <li class="p-lh-li" data-class="girl_content">女生</li>
+                    <div class="clear"></div>
+                </ul>
+            </div>
+            <!--书籍详情-->
+            <!--清除浮动-->
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+</body>
+</html>

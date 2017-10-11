@@ -1,0 +1,66 @@
+
+.i-c-a {
+    display: block;
+    margin-top: 14px;
+}
+.i-g-content {
+    width: 80px;
+    height: 100px;
+    overflow: hidden;
+    float: left;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #ccc;
+}
+.i-g-right {
+    float: left;
+    width: 80%;
+    height: 100px;
+    padding-left: 8px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #ccc;
+}
+.i-gr-font {
+    margin-right: 15px;
+    text-indent: 2em;
+    color: #888;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    margin-top: 7px;
+    letter-spacing: 1px;
+}
+
+.i-g-span {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.i-gc-l {
+    float: left;
+}
+
+.i-gc-l em {
+    padding: 0 2px;
+}
+/*女玄幻*/
+.i-xuanhuan-g {
+    color: #f22f69;
+}
+/*连载*/
+.i-lianzai {
+    color: #159b15;
+}
+
+.i-gc-center {
+    display: inline-block;
+}
+
+.i-xuanhuan-b {
+    color: #1299e6;
+}
+
+.i-gc-po {
+    float: right;
+}

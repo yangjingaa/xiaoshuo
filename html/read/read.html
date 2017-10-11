@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>小说阁手机版</title>
+    <meta name="viewport"
+          content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width"/>
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <meta name="generator" content="DESTOON B2B - www.destoon.com"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-title" content="小说阁手机版"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+    <link rel="apple-touch-icon-precomposed"
+          href="http://xiaoshuo.yewu99.com:8089/mobile/apple-touch-icon-precomposed.png"/>
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="128x128" href="http://xiaoshuo.yewu99.com:8089/mobile/apple-touch-icon-precomposed.png">
+    <meta name="msapplication-TileImage" content="apple-touch-icon-precomposed.png">
+    <meta name="msapplication-TileColor" content="#007AFF">
+    <link rel="shortcut icon" type="image/x-icon" href="http://xiaoshuo.yewu99.com:8089/favicon.ico"/>
+    <link rel="bookmark" type="image/x-icon" href="http://xiaoshuo.yewu99.com:8089/favicon.ico"/>
+    <link rel="stylesheet" type="text/css"
+          href="http://xiaoshuo.yewu99.com:8089/mobile/static/lib/jquery/jquery.mobile.custom.structure.min.css"/>
+    <link rel="stylesheet" type="text/css" href="http://xiaoshuo.yewu99.com:8089/mobile/static/style.css"/>
+    <script type="text/javascript"
+            src="http://xiaoshuo.yewu99.com:8089/mobile/static/lib/jquery/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).bind("mobileinit", function () {
+            $.mobile.defaultPageTransition = 'slide';
+        });
+        var AJPath = 'ajax.php';
+        var Dbrowser = '';
+    </script>
+    <script type="text/javascript"
+            src="http://xiaoshuo.yewu99.com:8089/mobile/static/lib/jquery/jquery.mobile.custom.min.js"></script>
+    <script type="text/javascript" src="http://xiaoshuo.yewu99.com:8089/mobile/static/js/common.js"></script>
+    <script type="text/javascript" src="http://xiaoshuo.yewu99.com:8089/mobile/static/js/fix.js"></script>
+</head>
+<body>
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/read/read.css">
+<script src="../../js/read/read.js"></script>
+<div class="base">
+    <!--书籍章节详情-->
+    <div class="rb-content">
+        <div class="rb-head rb-width">
+            <span>54章</span><span>纤夫制爱</span>
+            <span class="rb-headm">0/20</span>
+        </div>
+        <!--标题-->
+        <div class="p-h-back rb-back rb-width jq_hide jq_read">
+            <img class="p-h-ile" src="../../image/paihang/all_back_link.png" width="18" height="15" alt="">
+            <span>纤夫制爱</span>
+            <img class="p-h-caidan" src="../../image/bookDetail/list_caidan_but.png" width="18" height="15" alt="">
+        </div>
+        <!--书签-->
+        <div class="rb-shuqian jq_hide jq_read">
+            <img src="../../image/read_shuqian_icon.png" width="13" height="13" alt="">书签
+        </div>
+        <!--底部上下章-->
+        <div class="rb-dibu rb-width jq_hide jq_read">
+            <div class="rb-changefont">
+                <!--上下章节-->
+                <div class="rb-zhangjie" id="rb-zhangjie">
+                    <a href=""><div class="rb-shang">上一章</div></a>
+                    <a href=""><div class="rb-xia">下一章</div></a>
+                    <div class="clear"></div>
+                </div>
+                <!--字体调整-->
+                <div class="rb-cfbox jq_hide" id="rb_font">
+                    <img src="../../image/read/read_ajian_but.png" width="21" height="12" alt="">
+                    <span class="rb-xian">
+                        <div class="rb-btiao"></div>
+                        <div id="jq_qiu" class="rb-qiuqiu"></div>
+                    </span>
+                    <img src="../../image/read/read_ajia_but.png" width="21" height="12" alt="">
+                </div>
+                <!--颜色调整-->
+                <div class="rb-color jq_hide" id="rb_color">
+                    <span class="rb-col1"></span><span class="rb-col2"></span><span class="rb-col3"></span>
+                    <span class="rb-col4"></span><span class="rb-col5"></span><span class="rb-col6"></span>
+                    <span class="rb-col7"></span><span class="rb-col8"></span>
+                </div>
+            </div>
+            <!--底部选项-->
+            <div class="rb-xiabu">
+                <div class="rb-bianhua" data-key="rb_mulu">
+                    <img src="../../image/read/read_mulu_icon.png" width="16" height="14" alt="">
+                    <p>目录</p>
+                </div>
+                <div class="rb-bianhua" data-key="rb_font">
+                    <img src="../../image/read/read_zihao_icon.png" width="16" height="14" alt="">
+                    <p>字号</p>
+                </div>
+                <div class="rb-bianhua" data-key="rb_yejian">
+                    <img src="../../image/read/read_yejian_icon.png" width="15" height="14" alt="">
+                    <p>夜间</p>
+                </div>
+                <div class="rb-bianhua" data-key="rb_color">
+                    <img src="../../image/read/read_beijing_icon.png" width="16" height="14" alt="">
+                    <p>背景</p>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <!--书籍文字-->
+        <div class="rb-wenzhang">
+            <div class="rb-name">
+                54章 纤夫制爱
+            </div>
+            <div class="rb-reirong">
+                <p>
+                    开除她。”
+
+                    　　在东方硕一声冷喝之后，橡木房门“砰”一声地被重重甩上。
+
+                    　　留着利落短发的柳凤英看着站在门边哭泣的助理小白，感觉自己一夕之间老了十岁，变成五十五岁高龄。因为她完全不知道该拿门内那个男人如何是好。
+
+                    　　没错，东方硕是众人捧在手中的天之骄子，是众多女人心目中的万人迷，当他深情凝视人时，女人会融化在他的深情之中。
+
+                    　　但是，这些女人没一个知道——
+
+                    　　心情不好的东方硕比魔鬼还难搞。
+
+                    　　柳凤英知道他和这部电影导演的个性不合，不过他欣赏导演导戏的方式，所以才接了这部片。只不过，东方硕拍戏的这一个月来，他已经辞掉五个助理。
+
+                    　　他嫌助理不够细心、不够温柔、动作太粗鲁、不够坚强、挫折容忍度不够、对他笑起来的样子太痴迷……
+
+                    　　小白则是被说反应不够快，东方硕一句话得说三次，小白才能听懂他说什么。
+
+                    　　柳凤英长叹了一口气，觉得这事实在怪不了小白。
+
+                    　　正常女人被东方硕盯着看超过一分钟，哪个不出状况？
+
+                    　　总之，东方硕有一百个理由可以开除助理。所以，她认为东方硕需要的不是助理，而是一个天使！
+
+                    　　柳凤英拔下眼镜，揉着抽痛的太阳穴，突然间觉得疲惫无比。
+
+                    　　八成是最近忙于替他找助理，休息的时间变少，所以比从前更容易觉得疲倦。
+
+                    　　“我只是没听清他午餐要吃什么而已……”助理小白哽咽地说道。
+
+                    　　“他最近一天拍戏十二个小时，外加他自己进修磨戏的部分，一天最多只睡四小时，脾气自然差一点。”柳凤英给了她一个歉意的笑容。“我会给足妳两个月的薪水，妳就做到今天吧。”
+
+                    　　“我不要！”小白拉住柳姊的手，眼泪激动地往下流。“我可以改，他骂我打我都没关系，请妳再给我一次机会。”
+
+                    　　“该改的人是他，偏偏他是最不可能改的人，他就是那种艺术家任性脾气。”柳凤英摇摇头，拍拍她的肩膀。“我再帮妳介绍其它工作。”
+
+                    　　“我想留在东方硕身边。”小白脱口说道。
+
+                    　　“我说过担任他的助理绝对不可以对他怀有私情，而这也是东方硕的第一要求。”柳凤英顺势板起脸，严厉地说道：“去收拾妳的行李吧。”
+
+                    　　小白难堪地胀红了脸，转身跑下二楼。
+
+                    　　助理又飞了，现在该怎么办？
+
+                    　　柳凤英坐在走廊上的黑色羊皮长沙发里，拿出她的手机，努力想在通讯簿里搜寻出可能人选。
+
+                    　　东方硕要求助理要新人、要东方人、不要男人，不要那种把他当儿子的女人、不要冷冰冰只把他当成雇主的女人。他甚至还任性地要求过可不可以订制一个“柳凤英”的复制人当助理。
+
+                    　　唉，怎么会有人这么任性，又这么让人舍不得不疼。
+
+                    　　柳凤英茫然地看着一个又一个的人名，知道她可以轻易地找到一百个愿意担任这份工作的人。但是，她有预感这些人会跟前面几个助理一样阵亡。
+
+                    　　因为这部让东方硕心情不好的电影，预计还要两个月才会杀青。
+
+                    　　铃铃铃……
+
+                    　　突然而来的电话铃声，吓得她差点把手机摔下去。
+
+                    　　柳凤英看了一眼电话来电显示，精神霎时一振。
+                </p>
+            </div>
+        </div>
+        <!--点击出现框-->
+        <div id="rb-ckuang" class="rb-ckuang"></div>
+        <!--目录-->
+        <div class="rb_mulush jq_hide" id="rb_mulu">
+            <div class="rb-yinying"></div>
+            <div class="rb-mulu">
+                <div class="rb-headsa">目录</div>
+                <ul>
+                    <a href="#"><li class="rb-mli">第1章：人有灵魂</li></a>
+                    <a href="#"><li class="rb-mli">第1章：人有灵魂</li></a>
+                    <a href="#"><li class="rb-mli">第1章：人有灵魂</li></a>
+                    <a href="#"><li class="rb-mli">第1章：人有灵魂</li></a>
+                    <a href="#"><li class="rb-mli">第1章：人有灵魂</li></a>
+                    <a href="#"><li class="rb-mli">第1章：人有灵魂</li></a>
+                    <a href="#"><li class="rb-mli">第1章：人有灵魂</li></a>
+                    <a href="#"><li class="rb-mli">第1章：人有灵魂</li></a>
+                    <a href="#"><li class="rb-mli">第1章：人有灵魂</li></a>
+                    <a href="#"><li class="rb-mli">第1章：人有灵魂</li></a>
+                    <a href="#"><li class="rb-mli">第1章：人有灵魂</li></a>
+                    <a href="#"><li class="rb-mli">第1章：人有灵魂</li></a>
+                    <a href="#"><li class="rb-mli">第1章：人有灵魂</li></a>
+                    <a href="#"><li class="rb-mli">第1章：人有灵魂</li></a>
+                    <a href="#"><li class="rb-mli">第1章：人有灵魂</li></a>
+                    <a href="#"><li class="rb-mli">第1章：人有灵魂</li></a>
+                    <a href="#"><li class="rb-mli">第1章：人有灵魂</li></a>
+                    <a href="#"><li class="rb-mli">第1章：人有灵魂</li></a>
+                    <a href="#"><li class="rb-mli">第1章：人有灵魂</li></a>
+                    <a href="#"><li class="rb-mli">第1章：人有灵魂</li></a>
+                    <a href="#"><li class="rb-mli">第1章：人有灵魂</li></a>
+                    <a href="#"><li class="rb-mli">第1章：人有灵魂</li></a>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

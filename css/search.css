@@ -1,0 +1,80 @@
+.s-search{
+    width: 100%;
+    height: 40px;
+    background: #ff7b1a;
+    text-align: center;
+}
+
+.s-search-kuang{
+    display: inline-block;
+    height: 23px;
+    width: 225px;
+    background: #fff;
+    line-height: 23px;
+    border-radius: 10px;
+    margin-top: 11px;
+    padding-left: 10px;
+    text-align: left;
+    margin-right: 13px;
+}
+
+.s-search-kuang img{
+    float: right;
+    padding: 7px;
+}
+
+.s-cancel{
+    color: #fff;
+}
+
+
+.s-searchNan{
+    font-size: 16px;
+    color: #ccc;
+    margin-top: 65px;
+    text-align: center;
+}
+
+.s-index{
+    padding: 14px 10px;
+}
+
+.s-s-all{
+    margin-bottom: 31px;
+}
+
+.s-s-title{
+    margin-bottom: 5px;
+    line-height: 19px;
+}
+
+.s-s-title img{
+    vertical-align: baseline;
+}
+
+.s-s-font{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.s-scontent span{
+    display: inline-block;
+    margin-right: 12px;
+    margin-top: 6px;
+    padding: 2px 5px;
+    border:1px solid;
+    border-radius: 12px;
+    letter-spacing: 1px;
+}
+
+.s-s-history{
+
+}
+
+.s-tubiao-r{
+    float: right;
+    margin-top: 4px;
+}
+
+
+

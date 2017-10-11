@@ -1,0 +1,25 @@
+.p-h-back{
+    padding: 0 10px;
+    text-align: center;
+    background: #ff7b1a;
+    height: 40px;
+    line-height: 40px;
+}
+
+.p-h-ile{
+    float: left;
+    margin-top: 12px;
+}
+
+.p-h-iri{
+    float: right;
+    margin-top: 12px;
+}
+
+.p-h-back span{
+    color: #f3f3f3;
+    font-size: 16px;
+}
+
+
+

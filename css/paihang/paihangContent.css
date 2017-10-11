@@ -1,0 +1,82 @@
+.p-r-content{
+    padding: 5px 0 7px 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.p-rc-left{
+    float: left;
+    margin-right: 8px;
+    position: relative;
+}
+
+.p-rl-num{
+    position: absolute;
+    top:0;
+    left: 0;
+    background: #f3f3f3;
+    font-size: 12px;
+    min-width: 12px;
+
+}
+.p-red{
+    background: #ea0303;
+    color: white;
+}
+
+.p-orange{
+    background: #fa6003;
+    color: white;
+}
+
+.p-yellow{
+    background: #faa003;
+    color: white;
+}
+
+.p-rc-right{
+    float: left;
+    text-align: left;
+    width: 65%;
+}
+.p-rc-right>h3{
+
+}
+
+.p-rc-span{
+    margin-top: 3px;
+}
+
+.p-rc-span em{
+    margin:0 2px;
+}
+
+.p-rc-right > p {
+    margin-top: 7px;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #888;
+}
+
+.p-rc-right > p.sanhang{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    white-space: normal;
+}
+
+.p-rc-bottom{
+    margin-top: 6px;
+    font-size: 14px;
+}
+
+.p-rb-span{
+    float: left;
+    color: #159b15;
+}
+
+.p-rb-click{
+    float: right;
+    color: #1299e6;
+}
