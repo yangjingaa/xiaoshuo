@@ -44,7 +44,6 @@
     margin-left: -1px;
 }
 
-
 .rb-wenzhang {
     margin-top: 40px;
     padding: 5px 10px;
@@ -97,7 +96,16 @@
 
 .rb-zhangjie {
     border-bottom: 1px solid #fff;
-    font-size: 14px;
+    font-size: 14px
+}
+
+.rb-zhangjie a {
+    color: #fff;
+}
+
+.rb-sback {
+    background: #000 !important;
+    color: #999 !important
 }
 
 .rb-changefont {
@@ -121,7 +129,7 @@
     margin-top: 9px;
 }
 
-.rb-color span:last-child{
+.rb-color span:last-child {
     margin-right: 0;
 }
 
@@ -157,7 +165,7 @@
     background: #9d7653;
 }
 
-.rb-color span img{
+.rb-color span img {
     position: absolute;
     top: 6px;
     left: 3px;
@@ -246,33 +254,33 @@
     opacity: 0;
 }
 
-.rb-mulu{
+.rb-mulu {
     float: right;
     background: #f1f1f1;
     color: #000;
     width: 80%;
 }
 
-.rb_mulush{
+.rb_mulush {
     position: fixed;
     right: 0;
     top: 0;
     width: 100%;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
     overflow: auto;
 }
 
-.rb_mulush .rb-yinying{
+.rb_mulush .rb-yinying {
     float: left;
     height: 100%;
     width: 20%;
 }
 
-.rb-mulu ul{
+.rb-mulu ul {
     overflow: hidden;
 }
 
-.rb-headsa{
+.rb-headsa {
     text-align: center;
     font-size: 16px;
     font-weight: 400;
@@ -281,14 +289,14 @@
     border-bottom: 1px solid #000;
 }
 
-.rb-mli{
+.rb-mli {
     height: 30px;
     line-height: 30px;
     color: #888;
-    border-bottom:1px solid #ccc;
+    border-bottom: 1px solid #ccc;
     width: 100%;
     overflow: hidden;
-    padding-left:7.4%;
+    padding-left: 7.4%;
     font-size: 13px;
     letter-spacing: 2px;
 }

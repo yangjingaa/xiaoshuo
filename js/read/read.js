@@ -3,11 +3,15 @@ $(document).ready(function () {
     $(window).resize(function () {
         centerHead();
     });
+    silde();
+    head();
     showHiden();
     changeFontSize();
     changeBackground();//点击选中，换书籍背景及颜色
     changeXuanXiang();//底部按钮点击，切换显示
+    showFenLei('.rb-bianhua');
 });
+
 
 function centerHead() {
     var clienWidth = $('.base').width();
@@ -15,11 +19,12 @@ function centerHead() {
     $('.rb-width').each(function () {
         $(this).css('width', clienWidth + 'px')
     })
-    $('.rb-content,.rb-wenzhang').css('minHeight', clienHeight-40 + 'px')
+    $('.rb-content,.rb-wenzhang').css('minHeight', clienHeight - 40 + 'px')
 }
 
 function showHiden() {
     var $kuang = $('#rb-ckuang');
+    var $shuqian = $('.rb-shuqian');
     $kuang.click(function () {
         $('.jq_read').each(function () {
             if ($(this).hasClass('jq_hide')) {
@@ -31,6 +36,9 @@ function showHiden() {
             }
         })
     });
+    $shuqian.click(function () {
+        $(this).toggleClass('jq_ff7e22');
+    })
 }
 
 // 改变字体大小,num为字体大小。
@@ -107,19 +115,19 @@ function changeBackground() {
 function changeXuanXiang() {
     var $xuanxiang = $('.rb-bianhua');
     var sids = ['rb-zhangjie', 'rb_font', 'rb_color'];
-    var rbHeight = document.body.clientHeight+2;
+    var rbHeight = document.body.clientHeight + 2;
     $xuanxiang.click(function () {
         var keyId = $(this).data('key');
         if (keyId === 'rb_yejian') {
-            $('.rb-wenzhang').css({'background': '#000', 'color': '#999'});
+            $('.rb-wenzhang').toggleClass('rb-sback');
             return;
         }
         if (keyId === 'rb_mulu') {
             $('#rb_mulu').toggleClass('jq_hide');
-            if(!$('#rb_mulu').hasClass('jq_hide')){
-                $('#rb_mulu').css('height',rbHeight+'px');
-                $('#rb_mulu .rb-mulu').css('minHeight',rbHeight+'px');
-                $('body').css('overflow','hidden');
+            if (!$('#rb_mulu').hasClass('jq_hide')) {
+                $('#rb_mulu').css('height', rbHeight + 'px');
+                $('#rb_mulu .rb-mulu').css('minHeight', rbHeight + 'px');
+                $('body').css('overflow', 'hidden');
                 hideMuLu();
             }
             return;
@@ -142,6 +150,6 @@ function changeXuanXiang() {
 function hideMuLu() {
     $('.rb-yinying').click(function () {
         $(this).parent('div').addClass('jq_hide')
-        $('body').css('overflow','auto');
+        $('body').css('overflow', 'auto');
     })
 }

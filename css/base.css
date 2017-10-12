@@ -186,18 +186,6 @@ input:-ms-input-placeholder { /* Internet Explorer 10+ */
 }
 /*隐藏滚动条*/
 
-/*男女生背景*/
-.nanbackground{
-    background: url("../image/fenbeijing/nansheng.jpg") no-repeat;
-    -webkit-background-size: contain;
-    background-size: contain;
-}
-
-.nvbackground{
-    background-image: url("../image/fenbeijing/nvsheng.jpg");
-    -webkit-background-size: contain;
-    background-size: contain;
-}
 
 .s-content{
     width: 100%;
@@ -205,4 +193,30 @@ input:-ms-input-placeholder { /* Internet Explorer 10+ */
     background: #ffffff;
     padding-bottom: 12px;
     margin-bottom: 6px;
+}
+
+.jq_ff7e22{
+    background: #ff7e22 !important;
+}
+
+/*我的首页*/
+.xh-xiala{
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background: #fff;
+    -webkit-box-shadow: -1px 2px 3px rgba(0,0,0,0.3);
+    -moz-box-shadow: -1px 2px 3px rgba(0,0,0,0.3);
+    box-shadow: -1px 2px 3px rgba(0,0,0,0.3);
+    padding-top: 1px;
+}
+
+.xh-shouye{
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    width: 60px;
+    border:1px solid #ff7e22;
+    color: #ff7e22;
+    margin-top: -1px;
 }

@@ -41,12 +41,40 @@ function showFenLei(img,shaixuan) {
         var strh;
         if(src.indexOf('xuana_')>=0){
             strh=src.replace(/xuana_/,"xuan_");
-            $(shaixuan).toggleClass('jq_hide')
+            if(shaixuan){
+                $(shaixuan).toggleClass('jq_hide')
+            }
         }else {
-            strh=src.replace(/xuan_/,"xuana_")
-            $(shaixuan).toggleClass('jq_hide')
+            strh=src.replace(/xuan_/,"xuana_");
+            if(shaixuan){
+                $(shaixuan).toggleClass('jq_hide')
+            }
         }
         $(img).attr('src',strh)
     })
 
+}
+
+// 滑动
+function silde() {
+    var $body = $('.base');
+    var $div = $('#rb-head')||false;
+    var width = document.body.clientWidth;
+    var widthBase = parseInt(width)-parseInt($body.width());
+    $body.css('marginLeft', width + 'px');
+    $body.animate({
+        marginLeft:widthBase*0.5+'px'
+    }, 300);
+    if($div){
+        $div.css('left', width*1.5 + 'px');
+        $div.animate({
+            left: '50%'
+        }, 300);
+    }
+}
+
+function head() {
+    $('.p-h-caidan').click(function () {
+        $('.xh-xiala').toggleClass('jq_hide')
+    });
 }
