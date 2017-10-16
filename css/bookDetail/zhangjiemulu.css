@@ -31,7 +31,7 @@
 }
 
 .zj-btimu{
-    padding: 0 10px;
+    padding: 3px 10px;
     background: #fbe8db;
     font-size: 14px;
     height: 21px;
@@ -42,6 +42,12 @@
 .zjx-mulu{
     padding: 0 10px 15px;
 
+}
+
+.zjx-mulu a:first-child li{
+    font-size: 13px;
+    color: #888;
+    font-weight: bold;
 }
 
 .zjx-mli{

@@ -41,9 +41,9 @@ function nrarrRead() {
     var num = 0;
     $read.click(function () {
         $('#r_content').toggleClass('jq_hide')
-        if (num === 0){
+        if (num === 0) {
             $noLogin.toggleClass('jq_hide')
-        }else {
+        } else {
             $reads.toggleClass('jq_hide')
         }
     })

@@ -12,6 +12,7 @@ function showHideContent() {
         return
     } else {
         var $impP = $('.br-xialass');
+        showFenLei('.br-xialass');
         $impP.removeClass('jq_hide').click(function () {
             a = changePinglun(a, p, num, '.bd-jianjie')
         })
